@@ -1,0 +1,5 @@
+# Repo-specific overlay. Deep-merged over the canonical rsconstruct.toml.
+
+# The shell scripts of this repo live in the repo root.
+[processor.shellcheck]
+src_dirs = ["."]
