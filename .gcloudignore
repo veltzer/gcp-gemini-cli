@@ -1,0 +1,24 @@
+# ignore everything that .gitignore ignores
+#!include:.gitignore
+
+/db
+/misc
+/out
+/gcloud
+/config
+/tests
+/doc
+/support
+/scripts
+/Makefile
+/README.md
+/package.json
+/package-lock.json
+/templates
+/LICENSE
+/requirements.thawed.txt
+/.??*
+
+# the deploy stamp is gitignored (so included above via .gitignore) but must
+# be uploaded: it is what the app/version endpoint serves
+!/build_info.json
